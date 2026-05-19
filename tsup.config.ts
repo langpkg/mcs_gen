@@ -23,7 +23,7 @@
         "sourcemap"    : false,
         "splitting"    : false,
         "treeshake"    : true,
-        "external"     : ['bun'],
+        "external"     : ['bun', '@langpkg/mcs_fmt'],
         "target"       : 'es2022',
         "outDir"       : 'dist',
     };

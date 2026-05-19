@@ -1,6 +1,6 @@
 {
   "name": "@langpkg/mcs_gen",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "maysara code style generator",
   "keywords": [],
   "license": "MIT",
