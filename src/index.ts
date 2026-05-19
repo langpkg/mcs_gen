@@ -13,6 +13,7 @@
     import { generatePackageJson }              from './gen/json';
     import { generateTsupConfig }               from './gen/ts';
     import { generateGitignore }                from './gen/text';
+    import { generateNpmignore }                from './gen/text';
     import { generateTsconfig }                 from './gen/json';
     import { generateLicense }                  from './gen/text';
     import { generateReadme }                   from './gen/md';
@@ -56,6 +57,7 @@
 
             // Text files
             case '.gitignore'               : return generateGitignore();
+            case '.npmignore'               : return generateNpmignore();
             case 'LICENSE'                  : return generateLicense(meta);
 
             // If filename doesn't match any known generator, throw an error
