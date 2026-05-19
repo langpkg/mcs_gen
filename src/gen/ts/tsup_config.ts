@@ -19,15 +19,33 @@
 
     export function generateTsupConfig(projectType: ProjectType, meta: ProjectMeta): string {
 
+        // default: CLI project
         const configObj: Record<string, unknown> = {
+            clean       : true,
+            dts         : true,
             entry       : ['src/index.ts'],
             format      : ['esm', 'cjs'],
-            dts         : true,
-            minify          : true,
+            minify      : true,
             sourcemap   : false,
-            clean       : true,
             splitting   : true,
         };
+
+        // pkg-specific overrides
+        if (projectType === 'pkg') {
+            Object.assign(configObj, {
+                clean       : true,
+                dts         : true,
+                entry       : ['src/index.ts'],
+                format      : ['esm', 'cjs'],
+                minify      : true,
+                sourcemap   : false,
+                splitting   : false,
+                treeshake   : true,
+                external    : ['bun'],
+                target      : 'es2022',
+                outDir      : 'dist',
+            });
+        }
 
         // Add banner with shebang for CLI projects
         if (projectType === 'cli') {

@@ -39,6 +39,7 @@
             author                          : authorStr || '',
             repository                      : repoUrl ? { type: 'git', url: `git+${repoUrl}.git` } : '',
             type                            : 'module',
+            files                           : ['dist'],
             main                            : './dist/index.js',
             module                          : './dist/index.js',
             types                           : './dist/index.d.ts',
