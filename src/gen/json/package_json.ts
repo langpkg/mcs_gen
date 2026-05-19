@@ -47,6 +47,7 @@
                 '.': {
                     import          : './dist/index.js',
                     types           : './dist/index.d.ts',
+                    require         : "./dist/index.cjs"
                 },
             },
             scripts                         : {}, // use `pkg` cli instead.
