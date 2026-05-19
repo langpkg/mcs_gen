@@ -15,6 +15,7 @@
             'yarn.lock\n' +
             'pnpm-lock.yaml\n' +
             'bun.lockb\n\n' +
+            'bun.lock\n\n' +
             '# Build outputs\n' +
             'dist/\n' +
             'build/\n' +
