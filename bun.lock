@@ -4,7 +4,7 @@
     "": {
       "name": "@langpkg/mcs_gen",
       "dependencies": {
-        "@langpkg/mcs_fmt": "^0.0.6",
+        "@langpkg/mcs_fmt": "^0.0.7",
         "glob": "^13.0.6",
       },
       "devDependencies": {
@@ -110,7 +110,7 @@
 
     "@jridgewell/trace-mapping": ["@jridgewell/trace-mapping@0.3.9", "", { "dependencies": { "@jridgewell/resolve-uri": "^3.0.3", "@jridgewell/sourcemap-codec": "^1.4.10" } }, "sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ=="],
 
-    "@langpkg/mcs_fmt": ["@langpkg/mcs_fmt@0.0.6", "", { "dependencies": { "glob": "^13.0.6" } }, "sha512-nMuX5cA9lRPzvWssRHqaNxLhZ0oBV05V5zXTle88XINLYyI9W+TufKXLuIQWixCqhNMkdJtO2lehyrorK5SlBQ=="],
+    "@langpkg/mcs_fmt": ["@langpkg/mcs_fmt@0.0.7", "", { "dependencies": { "glob": "^13.0.6" } }, "sha512-Wk4G3Pf8r7Tcyy6i4YPqOhpLZ3Bc9DqNlIkkVF+Lw9Oogp4L1ZU/jK4h5IRsB0AF6ZpnCWGFLyQEK7ASX4qg+w=="],
 
     "@rollup/rollup-android-arm-eabi": ["@rollup/rollup-android-arm-eabi@4.60.4", "", { "os": "android", "cpu": "arm" }, "sha512-F5QXMSiFebS9hKZj02XhWLLnRpJ3B3AROP0tWbFBSj+6kCbg5m9j5JoHKd4mmSVy5mS/IMQloYgYxCuJC0fxEQ=="],
 
