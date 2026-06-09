@@ -6,17 +6,17 @@
 
 // ╔════════════════════════════════════════ PACK ════════════════════════════════════════╗
 
-    import { generateVscodeSettings }           from './gen/json';
-    import { generateSourceIndexTs }            from './gen/ts';
-    import { generateEslintConfig }             from './gen/ts';
-    import { generateTestIndexTs }              from './gen/ts';
-    import { generatePackageJson }              from './gen/json';
-    import { generateTsupConfig }               from './gen/ts';
-    import { generateGitignore }                from './gen/text';
-    import { generateTsconfig }                 from './gen/json';
-    import { generateLicense }                  from './gen/text';
-    import { generateReadme }                   from './gen/md';
     import type { ProjectType, ProjectMeta }    from './common';
+    import      { generateVscodeSettings }      from './gen/json';
+    import      { generateSourceIndexTs }       from './gen/ts';
+    import      { generateEslintConfig }        from './gen/ts';
+    import      { generateTestIndexTs }         from './gen/ts';
+    import      { generatePackageJson }         from './gen/json';
+    import      { generateTsupConfig }          from './gen/ts';
+    import      { generateGitignore }           from './gen/text';
+    import      { generateTsconfig }            from './gen/json';
+    import      { generateLicense }             from './gen/text';
+    import      { generateReadme }              from './gen/md';
     export *                                    from './gen/ts';
     export *                                    from './gen/md';
     export *                                    from './gen/json';

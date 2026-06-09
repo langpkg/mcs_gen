@@ -6,9 +6,8 @@
 
 // ╔════════════════════════════════════════ PACK ════════════════════════════════════════╗
 
-    import type { ProjectType, ProjectMeta } from '../../common';
-
-    import      { formatJSON  } from '@langpkg/mcs_fmt';
+    import type { ProjectType, ProjectMeta }    from '../../common';
+    import      { formatJSON }                  from '@langpkg/mcs_fmt';
 
 // ╚══════════════════════════════════════════════════════════════════════════════════════╝
 

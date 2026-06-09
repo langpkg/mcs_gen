@@ -6,10 +6,9 @@
 
 // ╔════════════════════════════════════════ PACK ════════════════════════════════════════╗
 
-    import { formatJSON, formatTS }             from '@langpkg/mcs_fmt';
     import type { ProjectType, ProjectMeta }    from '../../common';
-
-    import      { genL1, genFileHeader } from './utils';
+    import      { genL1, genFileHeader }        from './utils';
+    import      { formatJSON, formatTS }        from '@langpkg/mcs_fmt';
 
 // ╚══════════════════════════════════════════════════════════════════════════════════════╝
 
