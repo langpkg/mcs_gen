@@ -83,7 +83,7 @@
             ) +
             genL1(
                 'CONST',
-                `const rules = ${formatJSON(JSON.stringify(rulesJSON)).formatted}`
+                `const rules = ${formatJSON(JSON.stringify(rulesJSON)).formatted};`
             ) +
             genL1(
                 'CONF',

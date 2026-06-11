@@ -59,7 +59,7 @@
             ) +
             genL1(
                 'CONST',
-                `const rules = ${formatJSON(JSON.stringify(configObj)).formatted}`
+                `const rules = ${formatJSON(JSON.stringify(configObj)).formatted};`
             ) +
             genL1(
                 'CONF',
