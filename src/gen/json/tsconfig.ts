@@ -24,7 +24,7 @@
                 module                                  : 'ESNext',
                 moduleResolution                        : 'bundler',
                 lib                                     : ['DOM', 'ES2020', 'ESNext'],
-                types                                   : ['node'],
+                types                                   : ['bun', 'node'],
                 declaration                             : projectType === 'pkg',
                 outDir                                  : './dist',
                 // rootDir                                 : './src',
