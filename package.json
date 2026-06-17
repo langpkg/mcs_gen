@@ -1,7 +1,7 @@
 {
 
   "name"                        : "@langpkg/mcs_gen",
-  "version"                     : "0.1.7",
+  "version"                     : "0.1.8",
   "description"                 : "maysara code style generator",
   "keywords"                    : [],
   "license"                     : "MIT",
@@ -32,7 +32,7 @@
   "scripts"                     : {},
 
   "dependencies"                : {
-    "@langpkg/mcs_fmt"          : "^0.1.5",
+    "@langpkg/mcs_fmt"          : "^0.1.6",
     "glob"                      : "^13.0.6"
   },
   "devDependencies"             : {
